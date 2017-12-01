@@ -1,0 +1,19 @@
+@font-face {
+    font-family: drummond-font;
+    src: url(fonts/Drummond-regular.ttf);
+}
+
+.splash {
+    text-align: center;
+    font-family: drummond-font;
+}
+
+.splash .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.splash img {
+    display: block;
+    margin: 0 auto 20px;
+}
