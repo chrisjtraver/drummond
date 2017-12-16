@@ -3,6 +3,10 @@
     src: url(fonts/Drummond-regular.ttf);
 }
 
+body {
+	font-family: 'Slabo 27px', serif;
+}
+
 nav {
 	font-family: drummond-font;
 	margin-bottom: 50px;
