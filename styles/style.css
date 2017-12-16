@@ -3,10 +3,45 @@
     src: url(fonts/Drummond-regular.ttf);
 }
 
+nav {
+	font-family: drummond-font;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 768px) { 
+	
+	.merch-item {
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 768px) { 
+	
+	.buy-button {
+		float: right;
+	}
+
+}
+
+.navbar {
+	background-color: white !important;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.navbar-brand {
+	letter-spacing: 5px;
+}
+
+.drummond-font {
+	font-family: drummond-font;
+	letter-spacing: 5px;
+}
+
 .splash {
     text-align: center;
-    font-family: drummond-font;
-}
+/*    font-family: drummond-font;
+*/}
 
 .splash .container {
     padding-top: 100px;
