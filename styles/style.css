@@ -14,8 +14,13 @@ nav {
 
 @media (max-width: 768px) { 
 	
-	.merch-item {
+	.mobile-centered {
 		text-align: center;
+	}
+
+	.music-margin {
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 }
@@ -40,6 +45,10 @@ nav {
 .drummond-font {
 	font-family: drummond-font;
 	letter-spacing: 5px;
+}
+
+.gray-border {
+	border: 1px solid #e2e2e2;
 }
 
 .splash {
