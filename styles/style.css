@@ -1,6 +1,7 @@
 @font-face {
-    font-family: drummond-font;
-    src: url(./fonts/Drummond-regular.ttf);
+    font-family: 'drummond-font';
+    src: url(drummond-regular.ttf);
+    src: url(drummond-regular.otf);
 }
 
 body {
@@ -8,7 +9,7 @@ body {
 }
 
 nav {
-	font-family: drummond-font;
+	font-family: 'drummond-font', 'Slabo 27px', serif;
 	margin-bottom: 50px;
 }
 
@@ -43,8 +44,12 @@ nav {
 }
 
 .drummond-font {
-	font-family: drummond-font;
+	font-family: 'drummond-font', 'Slabo 27px', serif;
 	letter-spacing: 5px;
+}
+
+.submit-button:hover {
+	cursor: pointer;
 }
 
 .gray-border {
@@ -53,8 +58,7 @@ nav {
 
 .splash {
     text-align: center;
-/*    font-family: drummond-font;
-*/}
+}
 
 .splash .container {
     padding-top: 100px;

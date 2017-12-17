@@ -5,38 +5,46 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="The official website of Drummond, a guitarist, composer, and teacher based out of New York">
     <meta name="author" content="East Hudson Media, Inc.">
 
     <title>Drummond</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" > <!-- Bootstrap core CSS -->
+    <link href="styles/style.css" rel="stylesheet"> <!--Custom Styles-->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> <!--Google Font-->
 
   </head>
 
   <body>
 
-    <div class="splash">
+    <!-- Page Content -->
+    <div class="container">    
+      <div class="splash">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img src="img/profile.jpg" alt="Christopher Traver Monogram" width="325px">
-                    <div class="intro-text">
-                        <a href="music.html" class="btn btn-outline-dark" role="button">Music</a>
-                        <a href="#" class="btn btn-outline-dark" role="button">Scoring</a>
-                        <a href="#" class="btn btn-outline-dark" role="button">Bio</a>
-                        <a href="#" class="btn btn-outline-dark" role="button">Contact</a>
-                    </div>
+          <div class="row">
+              <div class="col-lg-12">
+                <img src="img/splash.jpg" alt="Drummond Logo" width="325">
+                <h1 class="drummond-font not-scary">DRUMMOND</h1>
+                <img class="scary" src="img/drummond-scary.jpg" alt="Drummond Scary" height="75" width="325">
+                <div class="intro-text">
+                    <a href="about.html" class="btn btn-outline-dark" role="button">About</a>
+                    <a href="music.html" class="btn btn-outline-dark" role="button">Music</a>
+                    <a href="merch.html" class="btn btn-outline-dark" role="button">Merch</a>
+                    <a href="contact.html" class="btn btn-outline-dark" role="button">Contact</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!--Random JS file for logo display-->
+    <script src="js/random.js"></script>
 
   </body>
 
